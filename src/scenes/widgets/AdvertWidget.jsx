@@ -1,7 +1,7 @@
 import { Typography,useTheme } from "@mui/material";
 import FlexBetween from "components/FlexBetween";
 import WidgetWrapper from "components/WidgetWrapper";
-import URL from "../../helper"
+import {URL} from "../../helper"
 const AdvertWidget=()=>{
     const {palette}=useTheme();
     const dark=palette.neutral.dark;
